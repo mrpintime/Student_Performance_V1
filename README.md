@@ -1,5 +1,7 @@
 # Student Performance Analysis in Secondary Education 
 
+![image info](./assets/Banner_G3.jpg)
+
 # Project Overview
 This project aims to predict the final grade (G3) of students in secondary education based on a range of demographic, social, family-related features, and academic performance data (grades G1 and G2). Utilizing datasets from two Portuguese schools covering both Mathematics (mat) and Portuguese language (por) courses, we seek to identify key predictors of student success and provide actionable insights to educators and policymakers.
 
