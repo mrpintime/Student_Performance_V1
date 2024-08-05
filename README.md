@@ -165,6 +165,7 @@ Our project utilized several machine learning models to predict student performa
 - **PCA_MLR as a Baseline:** Despite its simplicity, the `PCA_MLR` model performed reasonably well, offering a solid baseline for comparison. However, the crafted models with regularization clearly surpassed it in terms of predictive accuracy and model robustness.
 - **Consistency Across Models:** The standard deviation of cross-validation scores was relatively low for all models `except` the Polynomial MLR, indicating consistent performance across different subsets of the data.
 - **Optimal Model Selection:** The `Crafted_LassoTuned` and `Crafted_ElasticNetTuned` models stand out as the most promising options for predicting student grades, owing to their **high RScore** and **low MSE**, combined with **stable cross-validation** results.
+- **Feature Importance:** We can see some features like `paid`, `famrel`, `schoolsup` and `absence` have significant impact in specific direction on elastic net model and also we can see such as these features in Lasso, it would be better if industry make good impacts on student progress by using above features.  
 
 ### Conclusion:
 The analysis underscores the importance of feature engineering and model selection in predictive modeling. The regularization techniques (Lasso, Ridge, ElasticNet) have proven particularly beneficial in handling the complexity and potential overfitting, thus enhancing model performance. These findings offer valuable insights into predicting student performance, suggesting a focused direction for future research and application in educational settings.
@@ -205,10 +206,7 @@ Here we listed some next future steps on this project
 
 2. **Enhance Model Accuracy by Advanced Algorithms:** Experiment with more sophisticated machine learning algorithms, such as deep learning models, to potentially improve prediction accuracy.
 
-3. **Use Interpretability Tools:** Employ model interpretability tools and techniques, like SHAP or LIME, to better understand how model inputs affect predictions, thereby increasing transparency and trustworthiness.
-
-
-4. **User Interface for Stakeholders:** Create a user-friendly dashboard that visualizes predictions and insights, making them accessible to educators, students, and parents without requiring technical expertise.
+3. **User Interface for Stakeholders:** Create a user-friendly dashboard that visualizes predictions and insights, making them accessible to educators, students, and parents without requiring technical expertise.
 
 
 # Contributing
